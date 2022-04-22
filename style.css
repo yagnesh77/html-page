@@ -1,0 +1,347 @@
+*{
+     padding: 0px;
+     margin: 0px;
+     box-sizing: border-box;
+
+ }
+ body{
+     font-family: 'Poppins', sans-serif;
+
+ }
+#navbar{
+  width: 100%;
+  background-color: rgba(8, 14, 44, 0);
+  position: absolute;
+  z-index: 100;
+  /*height: 150px;*/
+  padding-bottom: 23px;
+  padding-top: 23px;
+  }
+
+
+#navbar_toggle{
+    display: none;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  width: 1146px;
+}
+
+.logo{
+  
+  float: left !important;
+}
+
+
+#menu{
+  padding-top: 23px;
+   float: right;
+}
+
+#menu ul{
+    overflow: hidden;
+   
+}
+
+#menu li{
+    display: inline-block;
+    padding: 0px 0px 0px 30px;
+  
+}
+
+#menu li a{
+  text-decoration: none;
+  text-align: left;
+  font: normal normal medium 16px/25px Poppins;
+  letter-spacing: 0.32px;
+  color: #EBF4F2;
+  opacity: 1;
+}
+
+#menu-b{
+  display: none;
+  background-color: rgba(0, 0, 0, 0.2);
+
+}
+
+.dropdown1{
+  width: 100%;
+  background-color: rgba(0, 0, 0, 1.0);
+
+}
+.dropdown2{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 1.0);
+}
+
+
+.banner{
+  width: 100%;
+  position: relative;
+}
+
+.banner div img{
+  width: 100% !important;
+}
+
+.banner .slick-next  {
+  background: url(arrow_ic-1.png) center center no-repeat;
+  font-size: 0px;
+  border: 0px;
+  width: 42px;
+  height: 42px;
+  background-size: 80%;
+  position: absolute;
+  top: 50%;
+  right: 74px;
+  margin-top: 0px;
+  z-index: 10
+
+}
+
+.banner .slick-prev  {
+  background: url(arrow_ic.png) center center no-repeat;
+  font-size: 0px;
+  border: 0px;
+  width: 42px;
+  height: 42px;
+  background-size: 80%;
+  position: absolute;
+  top: 50%;
+  left: 74px;
+  margin-top: 0px;
+  z-index: 10
+
+}
+
+.banner .slick-dots li{
+  list-style: none;
+
+}
+.banner .slick-dots li button {
+  display: none;
+}
+
+
+.heading{
+  width: 100%;
+  background-color: #FFFFFF;
+ padding-bottom: 80px;
+}
+
+.heading h2{
+ text-align: center;
+font-size: 40px;
+letter-spacing: 0.8px;
+color: #293846;
+  padding-top: 89px;
+  position: relative;
+  padding-bottom: 18px;
+
+}
+  .heading h2:after{
+    width: 50px;
+    height: 5px;
+    content: "";
+    background-color: #963184;
+    
+    position: absolute;
+    left: 50%;
+    margin-left: -25px;
+    bottom: 0;
+
+}
+
+
+.time{
+ width: 100%;
+  background-color: #FFFFFF; 
+ /* padding-top: 92px;*/
+ padding-bottom: 60px;
+ padding-top: 92px;
+}
+.time span{
+  text-align: left;
+font: normal normal medium 18px/29px Poppins;
+letter-spacing: 0px;
+color: #676A6C;
+opacity: 1;
+ 
+}
+.description{
+   width: 100%;
+  background-color: #FFFFFF;
+ /* padding-top: 91px; */
+
+}
+.description p b{
+  text-align: left;
+font: normal normal medium 16px/26px Poppins;
+letter-spacing: 0px;
+color: #293846;
+}
+
+.description p{
+  text-align: left;
+  font-size: 16px;
+letter-spacing: 0px;
+color: #676A6C;
+padding-bottom: 25px;
+
+}
+ .main-card{
+  padding-bottom: 80px;
+ }
+ 
+
+/*.main-card .card {
+  text-align: center;
+  background-color: #FFFFFF;
+
+}
+*/.main-card.card img{
+  width: 100%;
+}
+
+.main-card .column {
+  float: left;
+  width: 33.3%;
+  padding: 0 15px;
+}
+/*.main-card .column:last-child {
+  padding-right: 0px;
+}
+*/
+.main-card .row {
+  margin: 0px -15px;
+}
+.main-card .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.main-card .card b{
+  text-align: left;
+  font: normal normal normal 16px/28px Poppins;
+letter-spacing: 0.32px;
+color: #000000;
+  margin-bottom: 20px;
+  /*margin-top: 15px;*/
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.main-card .card p{
+  text-align: left;
+  font: normal normal 300 14px/26px Poppins;
+letter-spacing: 0.28px;
+color: #525B64;
+
+}
+.main-card .card button {
+  font-size: 16px;
+  float: left;
+  margin-bottom: 10px;
+  border: none;
+  background-color: #963184;
+  padding: 11px 64px 11px 12px;
+  border-radius: 4px;
+  color: #fff;
+  position: relative;
+  margin-top: 15px;
+}
+
+.main-card .card .myimg {
+  bottom: 12%;
+  position: absolute;
+  right: 10%;
+}
+#myimg2{
+  width: 21px;
+  height: 21px;
+}
+
+ footer{
+  background-color: #963184 !important;
+  width: 100%;
+  float: left;
+
+ }
+ .footer-main{
+  padding-top: 15px;
+  padding-bottom: 15px;
+ } 
+ .footer-menu{
+    float: left;
+    font: normal normal normal 16px/25px Poppins;
+letter-spacing: 0.32px;
+color: #F4F6FC;
+
+
+   
+ }
+ .footer-menu li
+ {
+   padding: 10px 10px;
+    display: inline-block;
+ }
+ .footer-menu a{
+
+    color: #fff;
+    text-decoration: none;
+
+ }
+
+.footer-line{
+  width: 100%;
+  
+  border-bottom: 1px solid #F4F6FC;
+  padding: 30px 0px;
+  opacity: 0.2;
+  }
+ 
+
+.footer-social{
+    float: right;
+    font: normal normal normal 18px/24px Font Awesome 5 Brands;
+letter-spacing: 0.72px;
+color: #F4F6FC;
+
+    
+ }
+ .footer-social li
+ {
+   padding: 10px 10px;
+    display: inline-block;
+ }
+ .footer-social a{
+
+    color: #fff;
+    text-decoration: none;
+
+ }
+ .footer-copyright{
+     width: 100%;
+     background-color: #963184;
+     /*padding-bottom: 15px;*/
+     display: inline-block;
+     padding-top: 15px;
+ }
+ .footer-copyright h5{
+   color: #fff;
+   text-align: center;
+   display: block;
+   font: normal normal normal 16px/25px Poppins;
+letter-spacing: 0.64px;
+color: #F4F6FC;
+
+ 
+ }
+
+
+
+
+
